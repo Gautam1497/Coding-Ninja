@@ -27,12 +27,12 @@ public class AS7Q5_DTB {
         System.out.println("Enter a number: ");
         int n=sc.nextInt();
         String s;
-        String a = "";
+        StringBuilder a = new StringBuilder();
         while (n>0)
         {
             int temp=n%2;
             s=Integer.toString(temp);
-            a=s+a;
+            a.insert(0, s);
             n/=2;
         }
         System.out.print(a);
