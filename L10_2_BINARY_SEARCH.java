@@ -60,11 +60,10 @@ public class L10_2_BINARY_SEARCH {
     {
         int start = 0;
         int end = arr.length - 1;
-        int mid=0;
-        while (start<end){
-            mid = (start + end) / 2;
-            if (arr[start] == x || arr[mid]==x || arr[end] == x) {
-                break;
+        while (start<=end){
+            int mid = (start + end) / 2;
+            if (arr[mid]==x) {
+                return mid;
             }
             else if (arr[mid] > x) {
                 end = mid-1;
@@ -72,9 +71,6 @@ public class L10_2_BINARY_SEARCH {
                 start=mid+1;
             }
         }
-        if(arr[start]==x) return start;
-        else if(arr[end]==x) return end;
-        else if(arr[mid]==x) return mid;
-        else return -1;
+        return -1;
     }
 }
