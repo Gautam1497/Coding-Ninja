@@ -65,10 +65,10 @@ public class AS13Q03_PSIA {
             }
             System.out.print("Enter sum to find: ");
             int a=sc.nextInt();
-            System.out.println(Duplicate(arr,a));//call function Duplicate and give values
+            System.out.println(SUM(arr,a));//call function SUM and give values
         }
     }
-    public static int Duplicate(int [] arr,int a) {
+    public static int SUM(int [] arr,int a) {
         int n=arr.length;
         int count=0;
         for(int i=0;i<n-1;i++)
