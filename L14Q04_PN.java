@@ -19,7 +19,7 @@ Sample Output 2 :
  */
 
 import java.util.*;
-public class AS14Q02_PN {
+public class L14Q04_PN {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
