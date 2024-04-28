@@ -20,7 +20,7 @@ Sample Output 2 :
 
 import java.util.*;
 
-public class AS14Q03_NOD{
+public class L14Q05_NOD {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
