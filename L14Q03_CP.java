@@ -22,7 +22,7 @@ Sample Output 2 :
 
 import java.util.*;
 
-public class AS14Q01_CP {
+public class L14Q03_CP {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int power=sc.nextInt();
