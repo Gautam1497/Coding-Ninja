@@ -29,9 +29,8 @@ public class L15Q03_RDR {
     }
     public static String check(String s){
         if(s.length()<=1)return s;
-        String str="";
         if(s.charAt(0)!=s.charAt(1)) {
-            str = check(s.substring(1));
+            String str = check(s.substring(1));
             return s.charAt(0) + str;
         }
         else return check(s.substring(1));
