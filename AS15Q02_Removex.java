@@ -37,3 +37,4 @@ public class AS15Q02_Removex {
         return s.charAt(0)+remove(s.substring(1));
     }
 }
+
